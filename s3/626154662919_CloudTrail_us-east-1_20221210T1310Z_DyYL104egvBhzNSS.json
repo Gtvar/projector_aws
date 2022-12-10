@@ -1,0 +1,2597 @@
+{
+  "Records": [
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAZDSNZ5QDRE4VW5QA2",
+        "arn": "arn:aws:iam::626154662919:user/Yev",
+        "accountId": "626154662919",
+        "accessKeyId": "ASIAZDSNZ5QDRVIKQUR3",
+        "userName": "Yev",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2022-12-10T09:40:44Z",
+            "mfaAuthenticated": "true"
+          }
+        }
+      },
+      "eventTime": "2022-12-10T13:03:24Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "HeadBucket",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "85.208.72.177",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.10.153-119.669.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.352-b08 java/1.8.0_352 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+      "requestParameters": {
+        "bucketName": "aws-cloudtrail-logs-626154662919-4289d4d6",
+        "Host": "s3.amazonaws.com"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "bytesTransferredIn": 0,
+        "AuthenticationMethod": "AuthHeader",
+        "x-amz-id-2": "1VF3AjZkKtCwY9xomW7xoHaSAEpI4WlPeNe2BXlY5wyRKuUzUkNHWM7GBEkM23Y6QHsYTiMel7I=",
+        "bytesTransferredOut": 0
+      },
+      "requestID": "E7T1B8AQEEWJ3JQW",
+      "eventID": "7a452a99-f886-49de-81e2-833cd288f855",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARNPrefix": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6/"
+        },
+        {
+          "accountId": "626154662919",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "626154662919",
+      "vpcEndpointId": "vpce-f40dc59d",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "s3.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAZDSNZ5QDRE4VW5QA2",
+        "arn": "arn:aws:iam::626154662919:user/Yev",
+        "accountId": "626154662919",
+        "accessKeyId": "ASIAZDSNZ5QDRVIKQUR3",
+        "userName": "Yev",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2022-12-10T09:40:44Z",
+            "mfaAuthenticated": "true"
+          }
+        }
+      },
+      "eventTime": "2022-12-10T13:03:24Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "HeadBucket",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "85.208.72.177",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.10.153-119.669.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.352-b08 java/1.8.0_352 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+      "requestParameters": {
+        "bucketName": "aws-cloudtrail-logs-626154662919-827975dc",
+        "Host": "s3.amazonaws.com"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "bytesTransferredIn": 0,
+        "AuthenticationMethod": "AuthHeader",
+        "x-amz-id-2": "oGPrXWQmeWl107ElU4PJ3zRImH40mXveO8R8jfnv9BMk2tqOCVHsaxTTeKtjBWcIFJoATCqnXxo=",
+        "bytesTransferredOut": 0
+      },
+      "requestID": "E7T2MXH9PQ7MQ4VR",
+      "eventID": "0ef33bd1-215f-4110-9de8-e81307d9ce73",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARNPrefix": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-827975dc/"
+        },
+        {
+          "accountId": "626154662919",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-827975dc"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "626154662919",
+      "vpcEndpointId": "vpce-f40dc59d",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "s3.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAZDSNZ5QDRE4VW5QA2",
+        "arn": "arn:aws:iam::626154662919:user/Yev",
+        "accountId": "626154662919",
+        "accessKeyId": "ASIAZDSNZ5QDRVIKQUR3",
+        "userName": "Yev",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2022-12-10T09:40:44Z",
+            "mfaAuthenticated": "true"
+          }
+        }
+      },
+      "eventTime": "2022-12-10T13:03:24Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "HeadBucket",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "85.208.72.177",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.10.153-119.669.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.352-b08 java/1.8.0_352 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+      "requestParameters": {
+        "bucketName": "projector-yk-logs",
+        "Host": "s3.amazonaws.com"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "bytesTransferredIn": 0,
+        "AuthenticationMethod": "AuthHeader",
+        "x-amz-id-2": "KMztRkzcB9DvLZDaopMQ+PZuuaLY2QQzXsFlvE7pgealPU7EKtLl5iGh1kcqVNrS2UdOXh58+Nc=",
+        "bytesTransferredOut": 0
+      },
+      "requestID": "E7TB8VJNZNWNJ08P",
+      "eventID": "9ac769d1-f31e-4d48-8f13-0ce191238a4b",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARNPrefix": "arn:aws:s3:::projector-yk-logs/"
+        },
+        {
+          "accountId": "626154662919",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::projector-yk-logs"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "626154662919",
+      "vpcEndpointId": "vpce-f40dc59d",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "s3.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAZDSNZ5QDRE4VW5QA2",
+        "arn": "arn:aws:iam::626154662919:user/Yev",
+        "accountId": "626154662919",
+        "accessKeyId": "ASIAZDSNZ5QDRVIKQUR3",
+        "userName": "Yev",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2022-12-10T09:40:44Z",
+            "mfaAuthenticated": "true"
+          }
+        }
+      },
+      "eventTime": "2022-12-10T13:03:30Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListObjectVersions",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "85.208.72.177",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.10.153-119.669.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.352-b08 java/1.8.0_352 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+      "requestParameters": {
+        "bucketName": "aws-cloudtrail-logs-626154662919-4289d4d6",
+        "Host": "aws-cloudtrail-logs-626154662919-4289d4d6.s3.us-east-1.amazonaws.com",
+        "max-keys": "1",
+        "encoding-type": "url",
+        "versions": ""
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "bytesTransferredIn": 0,
+        "AuthenticationMethod": "AuthHeader",
+        "x-amz-id-2": "JOA3X1VSTqCoxaJi9ecbMa4MsAdhQ3yXaWyhU6vbqEi5Ydo2lsaiTWLSyxVX4Zl8Ngm0giiB9l0=",
+        "bytesTransferredOut": 878
+      },
+      "requestID": "QPX3DJ7JSPHQTGD5",
+      "eventID": "62887c07-3899-49e1-9e92-07267379bfc9",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARNPrefix": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6/"
+        },
+        {
+          "accountId": "626154662919",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "626154662919",
+      "vpcEndpointId": "vpce-f40dc59d",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "aws-cloudtrail-logs-626154662919-4289d4d6.s3.us-east-1.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAZDSNZ5QDRE4VW5QA2",
+        "arn": "arn:aws:iam::626154662919:user/Yev",
+        "accountId": "626154662919",
+        "accessKeyId": "ASIAZDSNZ5QDRVIKQUR3",
+        "userName": "Yev",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2022-12-10T09:40:44Z",
+            "mfaAuthenticated": "true"
+          }
+        }
+      },
+      "eventTime": "2022-12-10T13:03:29Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListObjects",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "85.208.72.177",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.10.153-119.669.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.352-b08 java/1.8.0_352 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+      "requestParameters": {
+        "list-type": "2",
+        "bucketName": "aws-cloudtrail-logs-626154662919-4289d4d6",
+        "encoding-type": "url",
+        "max-keys": "1000",
+        "fetch-owner": "true",
+        "prefix": "",
+        "delimiter": "/",
+        "Host": "s3.amazonaws.com"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "bytesTransferredIn": 0,
+        "AuthenticationMethod": "AuthHeader",
+        "x-amz-id-2": "txgKRSveZ9Rd/yhogOH/mqOJWxJZiNlG400yuqHSFLjnD6nKRzHpsKxM3ZJZhaXopka+YZGy/eo=",
+        "bytesTransferredOut": 386
+      },
+      "requestID": "QH7RGR9XXH0NQQ7A",
+      "eventID": "4f1c46fe-9310-4163-ac3d-8583d988987b",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARNPrefix": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6/"
+        },
+        {
+          "accountId": "626154662919",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "626154662919",
+      "vpcEndpointId": "vpce-f40dc59d",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "s3.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAZDSNZ5QDRE4VW5QA2",
+        "arn": "arn:aws:iam::626154662919:user/Yev",
+        "accountId": "626154662919",
+        "accessKeyId": "ASIAZDSNZ5QDRVIKQUR3",
+        "userName": "Yev",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2022-12-10T09:40:44Z",
+            "mfaAuthenticated": "true"
+          }
+        }
+      },
+      "eventTime": "2022-12-10T13:03:31Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListObjects",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "85.208.72.177",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.10.153-119.669.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.352-b08 java/1.8.0_352 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+      "requestParameters": {
+        "list-type": "2",
+        "bucketName": "aws-cloudtrail-logs-626154662919-4289d4d6",
+        "encoding-type": "url",
+        "max-keys": "1000",
+        "fetch-owner": "true",
+        "prefix": "AWSLogs/",
+        "delimiter": "/",
+        "Host": "s3.amazonaws.com"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "bytesTransferredIn": 0,
+        "AuthenticationMethod": "AuthHeader",
+        "x-amz-id-2": "X1jh27Tw7u9TfHo+Fi8cHDa3BQ37Ej21im21pOX+y0YNWVjH5EddFuojo7QJ/xptU0lvhKt6bCA=",
+        "bytesTransferredOut": 407
+      },
+      "requestID": "8FTX62A66DKV3CQM",
+      "eventID": "668892fc-87de-4462-8541-89bb8710af9e",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARNPrefix": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6/AWSLogs/"
+        },
+        {
+          "accountId": "626154662919",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "626154662919",
+      "vpcEndpointId": "vpce-f40dc59d",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "s3.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAZDSNZ5QDRE4VW5QA2",
+        "arn": "arn:aws:iam::626154662919:user/Yev",
+        "accountId": "626154662919",
+        "accessKeyId": "ASIAZDSNZ5QDRVIKQUR3",
+        "userName": "Yev",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2022-12-10T09:40:44Z",
+            "mfaAuthenticated": "true"
+          }
+        }
+      },
+      "eventTime": "2022-12-10T13:03:35Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListObjects",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "85.208.72.177",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.10.153-119.669.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.352-b08 java/1.8.0_352 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+      "requestParameters": {
+        "list-type": "2",
+        "bucketName": "aws-cloudtrail-logs-626154662919-4289d4d6",
+        "encoding-type": "url",
+        "max-keys": "1000",
+        "fetch-owner": "true",
+        "prefix": "AWSLogs/626154662919/CloudTrail/",
+        "delimiter": "/",
+        "Host": "s3.amazonaws.com"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "bytesTransferredIn": 0,
+        "AuthenticationMethod": "AuthHeader",
+        "x-amz-id-2": "AYcq3DKJq9s2gyuyTayopOEQZamqVCGzBQ0cmi+O6fMm5e1a/cNI/RBneczm5vFaTzQ5/L1SAjo=",
+        "bytesTransferredOut": 1003
+      },
+      "requestID": "NMNVV0N7JTTJH9GD",
+      "eventID": "c986b620-0247-410d-b1e9-fa30d911eb17",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARNPrefix": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6/AWSLogs/626154662919/CloudTrail/"
+        },
+        {
+          "accountId": "626154662919",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "626154662919",
+      "vpcEndpointId": "vpce-f40dc59d",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "s3.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAZDSNZ5QDRE4VW5QA2",
+        "arn": "arn:aws:iam::626154662919:user/Yev",
+        "accountId": "626154662919",
+        "accessKeyId": "ASIAZDSNZ5QDRVIKQUR3",
+        "userName": "Yev",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2022-12-10T09:40:44Z",
+            "mfaAuthenticated": "true"
+          }
+        }
+      },
+      "eventTime": "2022-12-10T13:03:37Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListObjects",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "85.208.72.177",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.10.153-119.669.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.352-b08 java/1.8.0_352 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+      "requestParameters": {
+        "list-type": "2",
+        "bucketName": "aws-cloudtrail-logs-626154662919-4289d4d6",
+        "encoding-type": "url",
+        "max-keys": "1000",
+        "fetch-owner": "true",
+        "prefix": "AWSLogs/626154662919/CloudTrail/us-east-1/",
+        "delimiter": "/",
+        "Host": "s3.amazonaws.com"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "bytesTransferredIn": 0,
+        "AuthenticationMethod": "AuthHeader",
+        "x-amz-id-2": "HhfVNivEFPZkY2OPHAOCG4fVjAMQ469zQn6ETSTYOVeiPWWYeBp6Bq09b5VJ5vWT7N3813hmnYc=",
+        "bytesTransferredOut": 467
+      },
+      "requestID": "X98ZWD9KGPX9SESV",
+      "eventID": "89777e6b-78d9-46d6-a183-39b2c77ae929",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARNPrefix": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6/AWSLogs/626154662919/CloudTrail/us-east-1/"
+        },
+        {
+          "accountId": "626154662919",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "626154662919",
+      "vpcEndpointId": "vpce-f40dc59d",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "s3.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAZDSNZ5QDRE4VW5QA2",
+        "arn": "arn:aws:iam::626154662919:user/Yev",
+        "accountId": "626154662919",
+        "accessKeyId": "ASIAZDSNZ5QDRVIKQUR3",
+        "userName": "Yev",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2022-12-10T09:40:44Z",
+            "mfaAuthenticated": "true"
+          }
+        }
+      },
+      "eventTime": "2022-12-10T13:03:39Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListObjects",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "85.208.72.177",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.10.153-119.669.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.352-b08 java/1.8.0_352 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+      "requestParameters": {
+        "list-type": "2",
+        "bucketName": "aws-cloudtrail-logs-626154662919-4289d4d6",
+        "encoding-type": "url",
+        "max-keys": "1000",
+        "fetch-owner": "true",
+        "prefix": "AWSLogs/626154662919/CloudTrail/us-east-1/2022/",
+        "delimiter": "/",
+        "Host": "s3.amazonaws.com"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "bytesTransferredIn": 0,
+        "AuthenticationMethod": "AuthHeader",
+        "x-amz-id-2": "lCLWWOLcysQiBPw5CGUfabxTvcnch2EiuN6hDV5T9Jy9OTCqQGtIvACABbAUowEt3wxkquaGmDs=",
+        "bytesTransferredOut": 475
+      },
+      "requestID": "0TBYDDT1Y5WHJFW5",
+      "eventID": "afe744ce-7233-4716-b513-54bf2972367d",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARNPrefix": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6/AWSLogs/626154662919/CloudTrail/us-east-1/2022/"
+        },
+        {
+          "accountId": "626154662919",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "626154662919",
+      "vpcEndpointId": "vpce-f40dc59d",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "s3.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAZDSNZ5QDRE4VW5QA2",
+        "arn": "arn:aws:iam::626154662919:user/Yev",
+        "accountId": "626154662919",
+        "accessKeyId": "ASIAZDSNZ5QDRVIKQUR3",
+        "userName": "Yev",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2022-12-10T09:40:44Z",
+            "mfaAuthenticated": "true"
+          }
+        }
+      },
+      "eventTime": "2022-12-10T13:03:40Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListObjects",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "85.208.72.177",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.10.153-119.669.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.352-b08 java/1.8.0_352 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+      "requestParameters": {
+        "list-type": "2",
+        "bucketName": "aws-cloudtrail-logs-626154662919-4289d4d6",
+        "encoding-type": "url",
+        "max-keys": "1000",
+        "fetch-owner": "true",
+        "prefix": "AWSLogs/626154662919/CloudTrail/us-east-1/2022/12/",
+        "delimiter": "/",
+        "Host": "s3.amazonaws.com"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "bytesTransferredIn": 0,
+        "AuthenticationMethod": "AuthHeader",
+        "x-amz-id-2": "MV7WSSvSJetmWlVmUfbopyIwfimKcj7tYGhZUqqHjDQtcYJGO1pRpX2ferCSTAdeDV55Dyx9kAg=",
+        "bytesTransferredOut": 481
+      },
+      "requestID": "4W380TYEDPMYHBSP",
+      "eventID": "d4de898c-d563-4fe3-b579-61e95f2465fb",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARNPrefix": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6/AWSLogs/626154662919/CloudTrail/us-east-1/2022/12/"
+        },
+        {
+          "accountId": "626154662919",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "626154662919",
+      "vpcEndpointId": "vpce-f40dc59d",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "s3.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAZDSNZ5QDRE4VW5QA2",
+        "arn": "arn:aws:iam::626154662919:user/Yev",
+        "accountId": "626154662919",
+        "accessKeyId": "ASIAZDSNZ5QDRVIKQUR3",
+        "userName": "Yev",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2022-12-10T09:40:44Z",
+            "mfaAuthenticated": "true"
+          }
+        }
+      },
+      "eventTime": "2022-12-10T13:03:41Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListObjects",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "85.208.72.177",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.10.153-119.669.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.352-b08 java/1.8.0_352 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+      "requestParameters": {
+        "list-type": "2",
+        "bucketName": "aws-cloudtrail-logs-626154662919-4289d4d6",
+        "encoding-type": "url",
+        "max-keys": "1000",
+        "fetch-owner": "true",
+        "prefix": "AWSLogs/626154662919/CloudTrail/us-east-1/2022/12/10/",
+        "delimiter": "/",
+        "Host": "s3.amazonaws.com"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "bytesTransferredIn": 0,
+        "AuthenticationMethod": "AuthHeader",
+        "x-amz-id-2": "MYSJDvlvSzOnRMyTdV5leI6Ap+Z1Wb/grB/WN038WXMkOZpnb+yCG2HI4qi5nwJdSEtyP2LsFiI=",
+        "bytesTransferredOut": 35880
+      },
+      "requestID": "0ZQHHYAA9K2W21Z0",
+      "eventID": "68573862-866e-4b70-a3a4-a3ee748ebe1f",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARNPrefix": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6/AWSLogs/626154662919/CloudTrail/us-east-1/2022/12/10/"
+        },
+        {
+          "accountId": "626154662919",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "626154662919",
+      "vpcEndpointId": "vpce-f40dc59d",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "s3.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAZDSNZ5QDRE4VW5QA2",
+        "arn": "arn:aws:iam::626154662919:user/Yev",
+        "accountId": "626154662919",
+        "accessKeyId": "ASIAZDSNZ5QDRVIKQUR3",
+        "userName": "Yev",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2022-12-10T09:40:44Z",
+            "mfaAuthenticated": "true"
+          }
+        }
+      },
+      "eventTime": "2022-12-10T13:03:56Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "HeadObject",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "85.208.72.177",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.10.153-119.669.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.352-b08 java/1.8.0_352 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+      "requestParameters": {
+        "bucketName": "aws-cloudtrail-logs-626154662919-4289d4d6",
+        "Host": "s3.amazonaws.com",
+        "key": "AWSLogs/626154662919/CloudTrail/us-east-1/2022/12/10/626154662919_CloudTrail_us-east-1_20221210T1240Z_04qXlcKT6aD0xQLQ.json.gz"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "aclRequired": "Yes",
+        "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "bytesTransferredIn": 0,
+        "AuthenticationMethod": "AuthHeader",
+        "x-amz-id-2": "psriTT5/g9pirUQeVvm6tMLAi5VZ7M9ckWf1KBDBuxAaCGVKEpF4F+NAMmSauXcd72YTHxqaGEESfj9zIvJDFA==",
+        "bytesTransferredOut": 0
+      },
+      "requestID": "6D39Q0ZXQ88GM9N0",
+      "eventID": "c42dceae-e880-4ddf-80ac-7eef2d5e3ed2",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARN": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6/AWSLogs/626154662919/CloudTrail/us-east-1/2022/12/10/626154662919_CloudTrail_us-east-1_20221210T1240Z_04qXlcKT6aD0xQLQ.json.gz"
+        },
+        {
+          "accountId": "626154662919",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "626154662919",
+      "vpcEndpointId": "vpce-f40dc59d",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "s3.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAZDSNZ5QDRE4VW5QA2",
+        "arn": "arn:aws:iam::626154662919:user/Yev",
+        "accountId": "626154662919",
+        "accessKeyId": "ASIAZDSNZ5QDRVIKQUR3",
+        "userName": "Yev",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2022-12-10T09:40:44Z",
+            "mfaAuthenticated": "true"
+          }
+        }
+      },
+      "eventTime": "2022-12-10T13:03:56Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObjectTagging",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "85.208.72.177",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.10.153-119.669.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.352-b08 java/1.8.0_352 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+      "requestParameters": {
+        "tagging": "",
+        "bucketName": "aws-cloudtrail-logs-626154662919-4289d4d6",
+        "Host": "s3.amazonaws.com",
+        "key": "AWSLogs/626154662919/CloudTrail/us-east-1/2022/12/10/626154662919_CloudTrail_us-east-1_20221210T1240Z_04qXlcKT6aD0xQLQ.json.gz"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "bytesTransferredIn": 0,
+        "AuthenticationMethod": "AuthHeader",
+        "x-amz-id-2": "cCBlCjQCl82RWugXmkR/MxlA/XPTZzwliMjlAulj8zeqKsoN6jROxTlKmLUpGB0/e7Ovdp2DDqo=",
+        "bytesTransferredOut": 115
+      },
+      "requestID": "6D3BY2SV32PN48R7",
+      "eventID": "cd6332da-bbfb-428d-8962-487898d21073",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARN": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6/AWSLogs/626154662919/CloudTrail/us-east-1/2022/12/10/626154662919_CloudTrail_us-east-1_20221210T1240Z_04qXlcKT6aD0xQLQ.json.gz"
+        },
+        {
+          "accountId": "626154662919",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "626154662919",
+      "vpcEndpointId": "vpce-f40dc59d",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "s3.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAZDSNZ5QDRE4VW5QA2",
+        "arn": "arn:aws:iam::626154662919:user/Yev",
+        "accountId": "626154662919",
+        "accessKeyId": "ASIAZDSNZ5QDRVIKQUR3",
+        "userName": "Yev",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2022-12-10T09:40:44Z",
+            "mfaAuthenticated": "true"
+          }
+        }
+      },
+      "eventTime": "2022-12-10T13:03:56Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListObjects",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "85.208.72.177",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.10.153-119.669.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.352-b08 java/1.8.0_352 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+      "requestParameters": {
+        "list-type": "2",
+        "bucketName": "aws-cloudtrail-logs-626154662919-4289d4d6",
+        "encoding-type": "url",
+        "max-keys": "3000",
+        "fetch-owner": "true",
+        "prefix": "AWSLogs/626154662919/CloudTrail/us-east-1/2022/12/10/626154662919_CloudTrail_us-east-1_20221210T1240Z_04qXlcKT6aD0xQLQ.json.gz",
+        "delimiter": "/",
+        "Host": "s3.amazonaws.com"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "bytesTransferredIn": 0,
+        "AuthenticationMethod": "AuthHeader",
+        "x-amz-id-2": "jOYJ53TWG0qLjJFAfaHhFBfKKBMjUbi5dax/KEVtPrxjqqvdd3C29zQf/Fh4AospXfJfUesnE8a/XDMZ/go2Uw==",
+        "bytesTransferredOut": 915
+      },
+      "requestID": "WY2VB7R42EH988N8",
+      "eventID": "806defb3-aceb-4085-9815-a436cb3ed61e",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARNPrefix": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6/AWSLogs/626154662919/CloudTrail/us-east-1/2022/12/10/626154662919_CloudTrail_us-east-1_20221210T1240Z_04qXlcKT6aD0xQLQ.json.gz"
+        },
+        {
+          "accountId": "626154662919",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "626154662919",
+      "vpcEndpointId": "vpce-f40dc59d",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "s3.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAZDSNZ5QDRE4VW5QA2",
+        "arn": "arn:aws:iam::626154662919:user/Yev",
+        "accountId": "626154662919",
+        "accessKeyId": "ASIAZDSNZ5QDRVIKQUR3",
+        "userName": "Yev",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2022-12-10T09:40:44Z",
+            "mfaAuthenticated": "true"
+          }
+        }
+      },
+      "eventTime": "2022-12-10T13:03:56Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "HeadObject",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "85.208.72.177",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.10.153-119.669.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.352-b08 java/1.8.0_352 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+      "requestParameters": {
+        "bucketName": "aws-cloudtrail-logs-626154662919-4289d4d6",
+        "Host": "aws-cloudtrail-logs-626154662919-4289d4d6.s3.us-east-1.amazonaws.com",
+        "key": "AWSLogs/626154662919/CloudTrail/us-east-1/2022/12/10/626154662919_CloudTrail_us-east-1_20221210T1240Z_04qXlcKT6aD0xQLQ.json.gz"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "aclRequired": "Yes",
+        "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "bytesTransferredIn": 0,
+        "AuthenticationMethod": "AuthHeader",
+        "x-amz-id-2": "QaJ4klRrelJD9ek3InpjljdZkKkJispzNZn6ikBOrfYkmkUOsealDP87+jjB20toJ4OYkCBj6x4=",
+        "bytesTransferredOut": 0
+      },
+      "requestID": "6D39GBTT4ZDYCH4A",
+      "eventID": "57a6dda6-ea43-489a-80f5-b130ec1287b1",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARN": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6/AWSLogs/626154662919/CloudTrail/us-east-1/2022/12/10/626154662919_CloudTrail_us-east-1_20221210T1240Z_04qXlcKT6aD0xQLQ.json.gz"
+        },
+        {
+          "accountId": "626154662919",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "626154662919",
+      "vpcEndpointId": "vpce-f40dc59d",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "aws-cloudtrail-logs-626154662919-4289d4d6.s3.us-east-1.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAZDSNZ5QDRE4VW5QA2",
+        "arn": "arn:aws:iam::626154662919:user/Yev",
+        "accountId": "626154662919",
+        "accessKeyId": "ASIAZDSNZ5QDRVIKQUR3",
+        "userName": "Yev",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2022-12-10T09:40:44Z",
+            "mfaAuthenticated": "true"
+          }
+        }
+      },
+      "eventTime": "2022-12-10T13:03:56Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "HeadObject",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "85.208.72.177",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.10.153-119.669.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.352-b08 java/1.8.0_352 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+      "requestParameters": {
+        "bucketName": "aws-cloudtrail-logs-626154662919-4289d4d6",
+        "Host": "s3.amazonaws.com",
+        "key": "AWSLogs/626154662919/CloudTrail/us-east-1/2022/12/10/626154662919_CloudTrail_us-east-1_20221210T1240Z_04qXlcKT6aD0xQLQ.json.gz"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "aclRequired": "Yes",
+        "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "bytesTransferredIn": 0,
+        "AuthenticationMethod": "AuthHeader",
+        "x-amz-id-2": "t0dDvBf5R8/5aXqNJOIQWj2rrylr/GdC5jV7ckRqdUUNpBTcN8jtHeVjR/PIYuwwIJVQpb0fzYI=",
+        "bytesTransferredOut": 0
+      },
+      "requestID": "6D33JFSZK1KSWKVS",
+      "eventID": "2a361b09-518a-4a53-b8e4-dfee13c9e20b",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARN": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6/AWSLogs/626154662919/CloudTrail/us-east-1/2022/12/10/626154662919_CloudTrail_us-east-1_20221210T1240Z_04qXlcKT6aD0xQLQ.json.gz"
+        },
+        {
+          "accountId": "626154662919",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "626154662919",
+      "vpcEndpointId": "vpce-f40dc59d",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "s3.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAZDSNZ5QDRE4VW5QA2",
+        "arn": "arn:aws:iam::626154662919:user/Yev",
+        "accountId": "626154662919",
+        "accessKeyId": "ASIAZDSNZ5QDTPEI5JFM",
+        "userName": "Yev",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2022-12-10T09:40:44Z",
+            "mfaAuthenticated": "true"
+          }
+        }
+      },
+      "eventTime": "2022-12-10T13:03:58Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "85.208.72.177",
+      "userAgent": "[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36]",
+      "requestParameters": {
+        "X-Amz-Date": "20221210T130358Z",
+        "bucketName": "aws-cloudtrail-logs-626154662919-4289d4d6",
+        "X-Amz-Algorithm": "AWS4-HMAC-SHA256",
+        "response-content-disposition": "attachment",
+        "X-Amz-SignedHeaders": "host",
+        "Host": "aws-cloudtrail-logs-626154662919-4289d4d6.s3.us-east-1.amazonaws.com",
+        "X-Amz-Expires": "299",
+        "key": "AWSLogs/626154662919/CloudTrail/us-east-1/2022/12/10/626154662919_CloudTrail_us-east-1_20221210T1240Z_04qXlcKT6aD0xQLQ.json.gz"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "aclRequired": "Yes",
+        "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "bytesTransferredIn": 0,
+        "AuthenticationMethod": "QueryString",
+        "x-amz-id-2": "jJc4CZtohXtWvkem78ePd0Tdczf07g32BznWywRuQ7zYvmeQw1bh/JJPKd9mIMxFdlHLYfYBVhc=",
+        "bytesTransferredOut": 3270
+      },
+      "requestID": "3ATRTVCVHR5SPH8Z",
+      "eventID": "a7ebbd02-9bda-48f3-9a9c-674b66c2563d",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARN": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6/AWSLogs/626154662919/CloudTrail/us-east-1/2022/12/10/626154662919_CloudTrail_us-east-1_20221210T1240Z_04qXlcKT6aD0xQLQ.json.gz"
+        },
+        {
+          "accountId": "626154662919",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "626154662919",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "aws-cloudtrail-logs-626154662919-4289d4d6.s3.us-east-1.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "AWSAccount",
+        "principalId": "",
+        "accountId": "anonymous"
+      },
+      "eventTime": "2022-12-10T13:04:21Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "85.208.72.177",
+      "userAgent": "[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36]",
+      "requestParameters": {
+        "bucketName": "projector-yk",
+        "Host": "projector-yk.s3.amazonaws.com",
+        "key": "metromap.png"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "aclRequired": "Yes",
+        "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "bytesTransferredIn": 0,
+        "x-amz-id-2": "LdaTMzCZLbGrRG3T/djVp33/3SzQzTWe1gejc40iXdDKDWZYMadTMuIvwPDrA0lZaPaLEi7ylbc=",
+        "bytesTransferredOut": 0
+      },
+      "requestID": "VK4KPX6FHHCGM3Q2",
+      "eventID": "8202d1fb-83b2-4663-ace0-c5fec62e25a1",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARN": "arn:aws:s3:::projector-yk/metromap.png"
+        },
+        {
+          "accountId": "626154662919",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::projector-yk"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "626154662919",
+      "sharedEventID": "e9939766-e404-4801-ae9a-5b50be144ff3",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "projector-yk.s3.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "AWSAccount",
+        "principalId": "",
+        "accountId": "anonymous"
+      },
+      "eventTime": "2022-12-10T13:04:22Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "85.208.72.177",
+      "userAgent": "[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36]",
+      "errorCode": "AccessDenied",
+      "errorMessage": "Access Denied",
+      "requestParameters": {
+        "bucketName": "projector-yk",
+        "Host": "projector-yk.s3.amazonaws.com",
+        "key": "favicon.ico"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "bytesTransferredIn": 0,
+        "x-amz-id-2": "BoUnQVcRxPWEz1J6hq/wxeTgheBhoeU8JzqGH6NdCALdVBkZmGfZNSygx+lDGwG4pLaHpqDvFEM=",
+        "bytesTransferredOut": 243
+      },
+      "requestID": "MYQPWTJFFFPXE3E5",
+      "eventID": "f9ba23f4-f9aa-41a7-9a7e-0a5a3244d265",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARN": "arn:aws:s3:::projector-yk/favicon.ico"
+        },
+        {
+          "accountId": "626154662919",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::projector-yk"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "626154662919",
+      "sharedEventID": "af873848-3426-4e6b-8752-b451713286f0",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "projector-yk.s3.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "AWSAccount",
+        "principalId": "",
+        "accountId": "anonymous"
+      },
+      "eventTime": "2022-12-10T13:04:21Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "85.208.72.177",
+      "userAgent": "[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36]",
+      "errorCode": "AccessDenied",
+      "errorMessage": "Access Denied",
+      "requestParameters": {
+        "bucketName": "projector-yk",
+        "Host": "projector-yk.s3.amazonaws.com",
+        "key": "favicon.ico"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "bytesTransferredIn": 0,
+        "x-amz-id-2": "WO0Fg5bLOPimiqUKnI0ggoG+G/Z+lHQ3LNtQPUu/TaQohnpptMwC8O13vwv3W/Gw/M3Md/oqwnM=",
+        "bytesTransferredOut": 243
+      },
+      "requestID": "VK4YB4FAKCNJJ9NW",
+      "eventID": "6057867e-c1df-4296-8eca-9cc75e097e5f",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARN": "arn:aws:s3:::projector-yk/favicon.ico"
+        },
+        {
+          "accountId": "626154662919",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::projector-yk"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "626154662919",
+      "sharedEventID": "5a09ff80-f019-4351-915c-bf19399d2ab3",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "projector-yk.s3.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAZDSNZ5QDRE4VW5QA2",
+        "arn": "arn:aws:iam::626154662919:user/Yev",
+        "accountId": "626154662919",
+        "accessKeyId": "ASIAZDSNZ5QDRVIKQUR3",
+        "userName": "Yev",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2022-12-10T09:40:44Z",
+            "mfaAuthenticated": "true"
+          }
+        }
+      },
+      "eventTime": "2022-12-10T13:04:29Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListObjects",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "85.208.72.177",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.10.153-119.669.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.352-b08 java/1.8.0_352 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+      "requestParameters": {
+        "list-type": "2",
+        "bucketName": "aws-cloudtrail-logs-626154662919-4289d4d6",
+        "encoding-type": "url",
+        "max-keys": "1000",
+        "fetch-owner": "true",
+        "prefix": "AWSLogs/626154662919/CloudTrail/us-east-1/2022/12/10/",
+        "delimiter": "/",
+        "Host": "s3.amazonaws.com"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "bytesTransferredIn": 0,
+        "AuthenticationMethod": "AuthHeader",
+        "x-amz-id-2": "3BkauYjdIULAPOUjNguX0ngtk005wpOgEQ0opTJUpm2KCM053yX78IBbH4+wWhvwU1FPhz2E5N0=",
+        "bytesTransferredOut": 35880
+      },
+      "requestID": "9KQTSVJ9GTZE59QM",
+      "eventID": "31564c30-db4e-4bb4-a7ed-01e03e9072e0",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARNPrefix": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6/AWSLogs/626154662919/CloudTrail/us-east-1/2022/12/10/"
+        },
+        {
+          "accountId": "626154662919",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "626154662919",
+      "vpcEndpointId": "vpce-f40dc59d",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "s3.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "AWSAccount",
+        "principalId": "",
+        "accountId": "anonymous"
+      },
+      "eventTime": "2022-12-10T13:04:59Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "85.208.72.177",
+      "userAgent": "[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36]",
+      "errorCode": "AccessDenied",
+      "errorMessage": "Access Denied",
+      "requestParameters": {
+        "bucketName": "aws-cloudtrail-logs-626154662919-4289d4d6",
+        "Host": "aws-cloudtrail-logs-626154662919-4289d4d6.s3.us-east-1.amazonaws.com",
+        "key": "favicon.ico"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "bytesTransferredIn": 0,
+        "x-amz-id-2": "SwAeMyFAaIPfENFJ1xAKT8InA2X/bmblhKRgA//wl/C5qiY9AgLjv/NuAvwttKy65gAEUMJ5pdc=",
+        "bytesTransferredOut": 243
+      },
+      "requestID": "M4KDY7XP79BCDX6G",
+      "eventID": "13132098-33a4-4481-aae4-59495358c71c",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARN": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6/favicon.ico"
+        },
+        {
+          "accountId": "626154662919",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "626154662919",
+      "sharedEventID": "cadb6348-7bf5-4033-84c6-f0f8d136761a",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "aws-cloudtrail-logs-626154662919-4289d4d6.s3.us-east-1.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAZDSNZ5QDRE4VW5QA2",
+        "arn": "arn:aws:iam::626154662919:user/Yev",
+        "accountId": "626154662919",
+        "accessKeyId": "ASIAZDSNZ5QDTPEI5JFM",
+        "userName": "Yev",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2022-12-10T09:40:44Z",
+            "mfaAuthenticated": "true"
+          }
+        }
+      },
+      "eventTime": "2022-12-10T13:04:59Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "85.208.72.177",
+      "userAgent": "[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36]",
+      "requestParameters": {
+        "X-Amz-Date": "20221210T130458Z",
+        "bucketName": "aws-cloudtrail-logs-626154662919-4289d4d6",
+        "X-Amz-Algorithm": "AWS4-HMAC-SHA256",
+        "response-content-disposition": "inline",
+        "X-Amz-SignedHeaders": "host",
+        "Host": "aws-cloudtrail-logs-626154662919-4289d4d6.s3.us-east-1.amazonaws.com",
+        "X-Amz-Expires": "300",
+        "key": "AWSLogs/626154662919/CloudTrail/us-east-1/2022/12/10/626154662919_CloudTrail_us-east-1_20221210T0955Z_5FjWuEY8yCRCoDay.json.gz"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "aclRequired": "Yes",
+        "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "bytesTransferredIn": 0,
+        "AuthenticationMethod": "QueryString",
+        "x-amz-id-2": "KtBnFCfP6WG2awbmUaF6h2yx85QA+L7lFAi8094RzN10+7nMaCgsnfwwbFogEk4HjNgMtkyVUYM=",
+        "bytesTransferredOut": 1325
+      },
+      "requestID": "M4K7PZK1ECQNXX08",
+      "eventID": "f5c8c8f0-ff04-42e9-8c51-c07ed4dee6d1",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARN": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6/AWSLogs/626154662919/CloudTrail/us-east-1/2022/12/10/626154662919_CloudTrail_us-east-1_20221210T0955Z_5FjWuEY8yCRCoDay.json.gz"
+        },
+        {
+          "accountId": "626154662919",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "626154662919",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "aws-cloudtrail-logs-626154662919-4289d4d6.s3.us-east-1.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "AWSAccount",
+        "principalId": "",
+        "accountId": "anonymous"
+      },
+      "eventTime": "2022-12-10T13:05:40Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "85.208.72.177",
+      "userAgent": "[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36]",
+      "errorCode": "AccessDenied",
+      "errorMessage": "Access Denied",
+      "requestParameters": {
+        "bucketName": "aws-cloudtrail-logs-626154662919-4289d4d6",
+        "Host": "aws-cloudtrail-logs-626154662919-4289d4d6.s3.us-east-1.amazonaws.com",
+        "key": "favicon.ico"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "bytesTransferredIn": 0,
+        "x-amz-id-2": "21ld5GmXDSj1rzcPH8bH+K3aebIvnMWENer3jqwp3NkuqxXfEOIzSiA+lPlGA/sqIbvLfxCImGQ=",
+        "bytesTransferredOut": 243
+      },
+      "requestID": "D5ME938DKKFJF9MM",
+      "eventID": "1228f7cc-bc84-4bc9-8f83-9f693dd9d853",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARN": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6/favicon.ico"
+        },
+        {
+          "accountId": "626154662919",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "626154662919",
+      "sharedEventID": "4a8fbfa9-c349-4f87-982b-7baedb45fe07",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "aws-cloudtrail-logs-626154662919-4289d4d6.s3.us-east-1.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAZDSNZ5QDRE4VW5QA2",
+        "arn": "arn:aws:iam::626154662919:user/Yev",
+        "accountId": "626154662919",
+        "accessKeyId": "ASIAZDSNZ5QDTPEI5JFM",
+        "userName": "Yev",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2022-12-10T09:40:44Z",
+            "mfaAuthenticated": "true"
+          }
+        }
+      },
+      "eventTime": "2022-12-10T13:05:40Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "85.208.72.177",
+      "userAgent": "[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36]",
+      "requestParameters": {
+        "X-Amz-Date": "20221210T130539Z",
+        "bucketName": "aws-cloudtrail-logs-626154662919-4289d4d6",
+        "X-Amz-Algorithm": "AWS4-HMAC-SHA256",
+        "response-content-disposition": "inline",
+        "X-Amz-SignedHeaders": "host",
+        "Host": "aws-cloudtrail-logs-626154662919-4289d4d6.s3.us-east-1.amazonaws.com",
+        "X-Amz-Expires": "300",
+        "key": "AWSLogs/626154662919/CloudTrail/us-east-1/2022/12/10/626154662919_CloudTrail_us-east-1_20221210T1050Z_t47m89WfknaYMy3Q.json.gz"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "bytesTransferredIn": 0,
+        "AuthenticationMethod": "QueryString",
+        "x-amz-id-2": "Y3fQj5DQ2LyuDKbvsg9n6/Y3FknvOFyr+Q1SPaxCo8Oygfe3GD/bTg0MKbyfL+e+Sl3EykFjvQM=",
+        "bytesTransferredOut": 3665
+      },
+      "requestID": "D5MC0B3WP2KTAMMZ",
+      "eventID": "9678f2c9-db26-4b6e-8ade-6b817311e704",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARN": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6/AWSLogs/626154662919/CloudTrail/us-east-1/2022/12/10/626154662919_CloudTrail_us-east-1_20221210T1050Z_t47m89WfknaYMy3Q.json.gz"
+        },
+        {
+          "accountId": "626154662919",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "626154662919",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "aws-cloudtrail-logs-626154662919-4289d4d6.s3.us-east-1.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAZDSNZ5QDRE4VW5QA2",
+        "arn": "arn:aws:iam::626154662919:user/Yev",
+        "accountId": "626154662919",
+        "accessKeyId": "ASIAZDSNZ5QDRVIKQUR3",
+        "userName": "Yev",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2022-12-10T09:40:44Z",
+            "mfaAuthenticated": "true"
+          }
+        }
+      },
+      "eventTime": "2022-12-10T13:05:50Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListObjects",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "85.208.72.177",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.10.153-119.669.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.352-b08 java/1.8.0_352 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+      "requestParameters": {
+        "list-type": "2",
+        "bucketName": "aws-cloudtrail-logs-626154662919-4289d4d6",
+        "encoding-type": "url",
+        "max-keys": "1000",
+        "fetch-owner": "true",
+        "prefix": "AWSLogs/626154662919/CloudTrail/us-east-1/2022/12/10/",
+        "delimiter": "/",
+        "Host": "s3.amazonaws.com"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "bytesTransferredIn": 0,
+        "AuthenticationMethod": "AuthHeader",
+        "x-amz-id-2": "QFNIS7aoaxUPzEFLFasY4ERS6zXjPmrE2jixWEqKMtTa9zI/XPLGJLeeBSpdIoNnNEU5880iftw=",
+        "bytesTransferredOut": 36803
+      },
+      "requestID": "69QN00BW6KJEDC4S",
+      "eventID": "474f7895-2f59-4e1b-8bf3-871d33c68995",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARNPrefix": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6/AWSLogs/626154662919/CloudTrail/us-east-1/2022/12/10/"
+        },
+        {
+          "accountId": "626154662919",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "626154662919",
+      "vpcEndpointId": "vpce-f40dc59d",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "s3.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAZDSNZ5QDRE4VW5QA2",
+        "arn": "arn:aws:iam::626154662919:user/Yev",
+        "accountId": "626154662919",
+        "accessKeyId": "ASIAZDSNZ5QDTPEI5JFM",
+        "userName": "Yev",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2022-12-10T09:40:44Z",
+            "mfaAuthenticated": "true"
+          }
+        }
+      },
+      "eventTime": "2022-12-10T13:05:58Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "85.208.72.177",
+      "userAgent": "[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36]",
+      "requestParameters": {
+        "X-Amz-Date": "20221210T130558Z",
+        "bucketName": "aws-cloudtrail-logs-626154662919-4289d4d6",
+        "X-Amz-Algorithm": "AWS4-HMAC-SHA256",
+        "response-content-disposition": "inline",
+        "X-Amz-SignedHeaders": "host",
+        "Host": "aws-cloudtrail-logs-626154662919-4289d4d6.s3.us-east-1.amazonaws.com",
+        "X-Amz-Expires": "300",
+        "key": "AWSLogs/626154662919/CloudTrail/us-east-1/2022/12/10/626154662919_CloudTrail_us-east-1_20221210T1305Z_vwn0o67dGZHcQnYy.json.gz"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "aclRequired": "Yes",
+        "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "bytesTransferredIn": 0,
+        "AuthenticationMethod": "QueryString",
+        "x-amz-id-2": "ovsVflqOdj7hJ++8sT8dS2wSRXJMYoNzsU3fachq8vl5SvVThDM5N9ZMYjpuvJoXSVQocZwDV6U=",
+        "bytesTransferredOut": 10242
+      },
+      "requestID": "DS95G3PHE5D9DX3Y",
+      "eventID": "62c5ba93-16ea-4500-9f54-3d6c7e5011ac",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARN": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6/AWSLogs/626154662919/CloudTrail/us-east-1/2022/12/10/626154662919_CloudTrail_us-east-1_20221210T1305Z_vwn0o67dGZHcQnYy.json.gz"
+        },
+        {
+          "accountId": "626154662919",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "626154662919",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "aws-cloudtrail-logs-626154662919-4289d4d6.s3.us-east-1.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "AWSAccount",
+        "principalId": "",
+        "accountId": "anonymous"
+      },
+      "eventTime": "2022-12-10T13:05:59Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "85.208.72.177",
+      "userAgent": "[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36]",
+      "errorCode": "AccessDenied",
+      "errorMessage": "Access Denied",
+      "requestParameters": {
+        "bucketName": "aws-cloudtrail-logs-626154662919-4289d4d6",
+        "Host": "aws-cloudtrail-logs-626154662919-4289d4d6.s3.us-east-1.amazonaws.com",
+        "key": "favicon.ico"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "bytesTransferredIn": 0,
+        "x-amz-id-2": "lcS5I1ai3c28LZYbH4dbVLz9WtgwZeSepzc2WJqDplXDmq9J53tOaNQWGmpVyego21GTX3Ai0JI=",
+        "bytesTransferredOut": 243
+      },
+      "requestID": "FVM6T4FZHWFPNNBH",
+      "eventID": "99be7afd-0b55-422e-b42a-55cbce48f61c",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARN": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6/favicon.ico"
+        },
+        {
+          "accountId": "626154662919",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "626154662919",
+      "sharedEventID": "48afdb8d-d7f3-4c2f-be1b-f80b0539d833",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "aws-cloudtrail-logs-626154662919-4289d4d6.s3.us-east-1.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "AWSAccount",
+        "principalId": "",
+        "accountId": "anonymous"
+      },
+      "eventTime": "2022-12-10T13:06:08Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "85.208.72.177",
+      "userAgent": "[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36]",
+      "errorCode": "AccessDenied",
+      "errorMessage": "Access Denied",
+      "requestParameters": {
+        "bucketName": "aws-cloudtrail-logs-626154662919-4289d4d6",
+        "Host": "aws-cloudtrail-logs-626154662919-4289d4d6.s3.us-east-1.amazonaws.com",
+        "key": "favicon.ico"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "bytesTransferredIn": 0,
+        "x-amz-id-2": "vXqPrjsPQCrC1Bt3RJ95o8GeH5OFb8y/9npYF8w65Hz7ny/tnDTyEEB/Rzrjq010FN6zbDWk0xI=",
+        "bytesTransferredOut": 243
+      },
+      "requestID": "W5Q4W6GW4JB8YGZG",
+      "eventID": "be086031-61b6-414c-8d98-f3c7ea811e8e",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARN": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6/favicon.ico"
+        },
+        {
+          "accountId": "626154662919",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "626154662919",
+      "sharedEventID": "ebfaa7b9-0c5e-4367-ac06-bfa8fe096823",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "aws-cloudtrail-logs-626154662919-4289d4d6.s3.us-east-1.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAZDSNZ5QDRE4VW5QA2",
+        "arn": "arn:aws:iam::626154662919:user/Yev",
+        "accountId": "626154662919",
+        "accessKeyId": "ASIAZDSNZ5QDTPEI5JFM",
+        "userName": "Yev",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2022-12-10T09:40:44Z",
+            "mfaAuthenticated": "true"
+          }
+        }
+      },
+      "eventTime": "2022-12-10T13:06:08Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "85.208.72.177",
+      "userAgent": "[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36]",
+      "requestParameters": {
+        "X-Amz-Date": "20221210T130608Z",
+        "bucketName": "aws-cloudtrail-logs-626154662919-4289d4d6",
+        "X-Amz-Algorithm": "AWS4-HMAC-SHA256",
+        "response-content-disposition": "inline",
+        "X-Amz-SignedHeaders": "host",
+        "Host": "aws-cloudtrail-logs-626154662919-4289d4d6.s3.us-east-1.amazonaws.com",
+        "X-Amz-Expires": "299",
+        "key": "AWSLogs/626154662919/CloudTrail/us-east-1/2022/12/10/626154662919_CloudTrail_us-east-1_20221210T1305Z_KKTCCF86byYhYe6C.json.gz"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "aclRequired": "Yes",
+        "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "bytesTransferredIn": 0,
+        "AuthenticationMethod": "QueryString",
+        "x-amz-id-2": "MdRrXI7Q/SICnFe/xhztWTUQopj+cRmORg6FtAKwFQjPDrYYi35UgvUao9iuBLKfs2j+bQM5BVI=",
+        "bytesTransferredOut": 6888
+      },
+      "requestID": "W5QBV7NCNSXY2DZK",
+      "eventID": "e067436b-536c-4d82-8a68-d424b23b2966",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARN": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6/AWSLogs/626154662919/CloudTrail/us-east-1/2022/12/10/626154662919_CloudTrail_us-east-1_20221210T1305Z_KKTCCF86byYhYe6C.json.gz"
+        },
+        {
+          "accountId": "626154662919",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "626154662919",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "aws-cloudtrail-logs-626154662919-4289d4d6.s3.us-east-1.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAZDSNZ5QDRE4VW5QA2",
+        "arn": "arn:aws:iam::626154662919:user/Yev",
+        "accountId": "626154662919",
+        "accessKeyId": "ASIAZDSNZ5QDRVIKQUR3",
+        "userName": "Yev",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2022-12-10T09:40:44Z",
+            "mfaAuthenticated": "true"
+          }
+        }
+      },
+      "eventTime": "2022-12-10T13:07:09Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListObjects",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "85.208.72.177",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.10.153-119.669.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.352-b08 java/1.8.0_352 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+      "requestParameters": {
+        "list-type": "2",
+        "bucketName": "aws-cloudtrail-logs-626154662919-4289d4d6",
+        "encoding-type": "url",
+        "max-keys": "1000",
+        "fetch-owner": "true",
+        "prefix": "AWSLogs/626154662919/CloudTrail/us-east-1/2022/12/10/",
+        "delimiter": "/",
+        "Host": "s3.amazonaws.com"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "bytesTransferredIn": 0,
+        "AuthenticationMethod": "AuthHeader",
+        "x-amz-id-2": "6wrkOCEq2QLqI9cXp+wQoH76b2661AvPKvwf7CH4JzNCijRVGtSggIv6Ws1Ogw3y9z52eE6z0dY=",
+        "bytesTransferredOut": 36803
+      },
+      "requestID": "YZQA96S9GE79WJGB",
+      "eventID": "4ed72ef6-c060-4dc9-bc8d-ffa7af58bcf1",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARNPrefix": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6/AWSLogs/626154662919/CloudTrail/us-east-1/2022/12/10/"
+        },
+        {
+          "accountId": "626154662919",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "626154662919",
+      "vpcEndpointId": "vpce-f40dc59d",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "s3.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "AWSAccount",
+        "principalId": "",
+        "accountId": "anonymous"
+      },
+      "eventTime": "2022-12-10T13:07:32Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "85.208.72.177",
+      "userAgent": "[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36]",
+      "errorCode": "AccessDenied",
+      "errorMessage": "Access Denied",
+      "requestParameters": {
+        "bucketName": "projector-yk",
+        "Host": "projector-yk.s3.amazonaws.com",
+        "key": "favicon.ico"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "bytesTransferredIn": 0,
+        "x-amz-id-2": "3eBk4SzgxXyy8wQ/Y7PIpkFpTG5TRNp46DSUFWP3nZcYo33bAni0RRs+UBaeCK1TQP4v4X0LlOs=",
+        "bytesTransferredOut": 243
+      },
+      "requestID": "8GZW0X1B9J9P65BH",
+      "eventID": "695dc3ed-cd3d-4cb1-ab2f-bee851f91ccc",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARN": "arn:aws:s3:::projector-yk/favicon.ico"
+        },
+        {
+          "accountId": "626154662919",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::projector-yk"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "626154662919",
+      "sharedEventID": "41ec9fa0-3571-44f1-b300-dfde604862a7",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "projector-yk.s3.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "AWSAccount",
+        "principalId": "",
+        "accountId": "anonymous"
+      },
+      "eventTime": "2022-12-10T13:07:32Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "85.208.72.177",
+      "userAgent": "[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36]",
+      "requestParameters": {
+        "bucketName": "projector-yk",
+        "Host": "projector-yk.s3.amazonaws.com",
+        "key": "metromap.png"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "aclRequired": "Yes",
+        "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "bytesTransferredIn": 0,
+        "x-amz-id-2": "N8exCzipE26n+A3ZhvGD/nWmhZNCqBTL2YNSqAwYfzGKDd9JJNKm3icbAaA9Ez2PYoHSqaN74RY=",
+        "bytesTransferredOut": 0
+      },
+      "requestID": "8GZQHFEV3JNX3RF9",
+      "eventID": "76d423c8-a563-48b9-9848-2a4b8ad18845",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARN": "arn:aws:s3:::projector-yk/metromap.png"
+        },
+        {
+          "accountId": "626154662919",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::projector-yk"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "626154662919",
+      "sharedEventID": "be29fd3a-7f07-49a1-b867-688c632af572",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "projector-yk.s3.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "AWSAccount",
+        "principalId": "",
+        "accountId": "anonymous"
+      },
+      "eventTime": "2022-12-10T13:07:33Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "85.208.72.177",
+      "userAgent": "[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36]",
+      "requestParameters": {
+        "bucketName": "projector-yk",
+        "Host": "projector-yk.s3.amazonaws.com",
+        "key": "metromap.png"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "aclRequired": "Yes",
+        "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "bytesTransferredIn": 0,
+        "x-amz-id-2": "6xfuRR9QqDCupUCkpVfqYi5FOFOyFtZgs94XxgM3oPcfMd9alFduw59zZLSb4cXL8zEO9+K/tJo=",
+        "bytesTransferredOut": 0
+      },
+      "requestID": "N2V3MY0XYR304A8B",
+      "eventID": "86541e04-95f1-4285-81e8-2d6e7d44c4d2",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARN": "arn:aws:s3:::projector-yk/metromap.png"
+        },
+        {
+          "accountId": "626154662919",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::projector-yk"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "626154662919",
+      "sharedEventID": "eb041fd1-c5d2-492d-99c7-f952680a288d",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "projector-yk.s3.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "AWSAccount",
+        "principalId": "",
+        "accountId": "anonymous"
+      },
+      "eventTime": "2022-12-10T13:07:34Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "85.208.72.177",
+      "userAgent": "[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36]",
+      "errorCode": "AccessDenied",
+      "errorMessage": "Access Denied",
+      "requestParameters": {
+        "bucketName": "projector-yk",
+        "Host": "projector-yk.s3.amazonaws.com",
+        "key": "favicon.ico"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "bytesTransferredIn": 0,
+        "x-amz-id-2": "VR3TGB1T8F7U1AIiinJ7YDhO8xlyh9AbLuTL1Dg3v+GLIewpmGBzyBlBbaLqqtc69udwY5rmhHQ=",
+        "bytesTransferredOut": 243
+      },
+      "requestID": "F6DM9DYHQ1HXCWP7",
+      "eventID": "dc40198a-0ca3-49de-951a-b721ea3916c6",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARN": "arn:aws:s3:::projector-yk/favicon.ico"
+        },
+        {
+          "accountId": "626154662919",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::projector-yk"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "626154662919",
+      "sharedEventID": "df0f7af3-deb9-4ae1-9559-a475b8b3fa4e",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "projector-yk.s3.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "AWSAccount",
+        "principalId": "",
+        "accountId": "anonymous"
+      },
+      "eventTime": "2022-12-10T13:07:34Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "85.208.72.177",
+      "userAgent": "[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36]",
+      "requestParameters": {
+        "bucketName": "projector-yk",
+        "Host": "projector-yk.s3.amazonaws.com",
+        "key": "metromap.png"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "aclRequired": "Yes",
+        "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "bytesTransferredIn": 0,
+        "x-amz-id-2": "1mUZMYyfKml2y3sepU/GIl63XgiLVxQ7nyYeEe2LkJzu3O6lrjw5sJ8LWM8yUv0x+xtY84AO9TY=",
+        "bytesTransferredOut": 0
+      },
+      "requestID": "F6DKV55Z5RWT7FQR",
+      "eventID": "6eed777a-1088-40e3-8d67-a02bd36d25d3",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARN": "arn:aws:s3:::projector-yk/metromap.png"
+        },
+        {
+          "accountId": "626154662919",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::projector-yk"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "626154662919",
+      "sharedEventID": "30e8a84c-720f-4bff-a4d0-d80636596728",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "projector-yk.s3.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "AWSAccount",
+        "principalId": "",
+        "accountId": "anonymous"
+      },
+      "eventTime": "2022-12-10T13:07:35Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "85.208.72.177",
+      "userAgent": "[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36]",
+      "errorCode": "AccessDenied",
+      "errorMessage": "Access Denied",
+      "requestParameters": {
+        "bucketName": "projector-yk",
+        "Host": "projector-yk.s3.amazonaws.com",
+        "key": "favicon.ico"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "bytesTransferredIn": 0,
+        "x-amz-id-2": "CmdOkj+76e78XW/du+FcdwylR+yLUw8YRCZHPswVqvn+nuTafqQ/OPqzeK7HXM+BfcNIM3wrJoY=",
+        "bytesTransferredOut": 243
+      },
+      "requestID": "V7NPVA6M3SR6Q4B5",
+      "eventID": "b5daefc8-8377-4522-bb51-bb25baa18bc9",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARN": "arn:aws:s3:::projector-yk/favicon.ico"
+        },
+        {
+          "accountId": "626154662919",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::projector-yk"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "626154662919",
+      "sharedEventID": "5e856c19-e556-431d-beb5-7a8ce42a1924",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "projector-yk.s3.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "AWSAccount",
+        "principalId": "",
+        "accountId": "anonymous"
+      },
+      "eventTime": "2022-12-10T13:07:35Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "85.208.72.177",
+      "userAgent": "[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36]",
+      "requestParameters": {
+        "bucketName": "projector-yk",
+        "Host": "projector-yk.s3.amazonaws.com",
+        "key": "metromap.png"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "aclRequired": "Yes",
+        "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "bytesTransferredIn": 0,
+        "x-amz-id-2": "MRCkYnhMDly9VP7SCwwDVUnfULWtUqNRcjNeqLf1EDng+hWQicysQ3gKUoU4UozddEOtOo6VwTs=",
+        "bytesTransferredOut": 0
+      },
+      "requestID": "V7NSA5QR8V3AMDSR",
+      "eventID": "730fcf2a-06c9-46ee-8433-056afc925775",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARN": "arn:aws:s3:::projector-yk/metromap.png"
+        },
+        {
+          "accountId": "626154662919",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::projector-yk"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "626154662919",
+      "sharedEventID": "37c58a5b-73d5-4a2d-9ace-02f38feae0fd",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "projector-yk.s3.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "AWSAccount",
+        "principalId": "",
+        "accountId": "anonymous"
+      },
+      "eventTime": "2022-12-10T13:07:36Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "85.208.72.177",
+      "userAgent": "[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36]",
+      "errorCode": "AccessDenied",
+      "errorMessage": "Access Denied",
+      "requestParameters": {
+        "bucketName": "projector-yk",
+        "Host": "projector-yk.s3.amazonaws.com",
+        "key": "favicon.ico"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "bytesTransferredIn": 0,
+        "x-amz-id-2": "kdD+BjOV0/SOL4ozOzED3w/cmXrH1S+O/2BmRsK0GJ3mwxs3zGNkt4lmNFJHhdb061UgeOHVpYw=",
+        "bytesTransferredOut": 243
+      },
+      "requestID": "4X67JRZZDJ07548E",
+      "eventID": "365aaeaf-e757-48e3-9820-b226938bb6d7",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARN": "arn:aws:s3:::projector-yk/favicon.ico"
+        },
+        {
+          "accountId": "626154662919",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::projector-yk"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "626154662919",
+      "sharedEventID": "96ce9e23-7ad8-462c-b7a7-585a7f1748bf",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "projector-yk.s3.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "AWSAccount",
+        "principalId": "",
+        "accountId": "anonymous"
+      },
+      "eventTime": "2022-12-10T13:07:49Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "85.208.72.177",
+      "userAgent": "[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36]",
+      "errorCode": "AccessDenied",
+      "errorMessage": "Access Denied",
+      "requestParameters": {
+        "bucketName": "projector-yk",
+        "Host": "projector-yk.s3.amazonaws.com",
+        "key": "favicon.ico"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "bytesTransferredIn": 0,
+        "x-amz-id-2": "mE/OaAIF9Hqa8GxAz3s+fs/PPzn+8ffHIZQadA1U+80rM3APC8ShEXPVE4+P9FHuKE4pl6kTo5M=",
+        "bytesTransferredOut": 243
+      },
+      "requestID": "QHEQKZQME9EN503Y",
+      "eventID": "72c41fae-1054-4bc2-9c2f-e9d56540b3b5",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARN": "arn:aws:s3:::projector-yk/favicon.ico"
+        },
+        {
+          "accountId": "626154662919",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::projector-yk"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "626154662919",
+      "sharedEventID": "c94b7ff7-b9aa-4df9-9693-becc22707d54",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "projector-yk.s3.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "AWSAccount",
+        "principalId": "",
+        "accountId": "anonymous"
+      },
+      "eventTime": "2022-12-10T13:07:50Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "85.208.72.177",
+      "userAgent": "[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36]",
+      "requestParameters": {
+        "bucketName": "projector-yk",
+        "Host": "projector-yk.s3.amazonaws.com",
+        "key": "metromap.png"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "aclRequired": "Yes",
+        "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "bytesTransferredIn": 0,
+        "x-amz-id-2": "y4n6uwWPaynbwBmysTLRrvSAcX3i2wgHXA+3OdL4zfr1ajgAlt/kQU40wz3oiZtTKcbwJvrvqZ0=",
+        "bytesTransferredOut": 0
+      },
+      "requestID": "C3HEADANVHPK6AA8",
+      "eventID": "1c385bae-abeb-4c09-8b44-e0960b7cfbaf",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARN": "arn:aws:s3:::projector-yk/metromap.png"
+        },
+        {
+          "accountId": "626154662919",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::projector-yk"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "626154662919",
+      "sharedEventID": "2c4ff09d-fd67-4cd4-82be-36d0bac3fde9",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "projector-yk.s3.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "AWSAccount",
+        "principalId": "",
+        "accountId": "anonymous"
+      },
+      "eventTime": "2022-12-10T13:07:49Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "85.208.72.177",
+      "userAgent": "[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36]",
+      "requestParameters": {
+        "bucketName": "projector-yk",
+        "Host": "projector-yk.s3.amazonaws.com",
+        "key": "metromap.png"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "aclRequired": "Yes",
+        "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "bytesTransferredIn": 0,
+        "x-amz-id-2": "7Y3invVNiqNacdqzDeCZC27AXF0nQ8+zQ0a8loooB73Wj5u2I0/CRSlX8ZvitwnfiLZM7Qk/l+4=",
+        "bytesTransferredOut": 0
+      },
+      "requestID": "QHENV3X5YKA72XSJ",
+      "eventID": "20586b98-8a84-4324-9cb7-703030ad0860",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARN": "arn:aws:s3:::projector-yk/metromap.png"
+        },
+        {
+          "accountId": "626154662919",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::projector-yk"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "626154662919",
+      "sharedEventID": "7fc10f8e-b2d1-44b3-9002-9b310afa5a58",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "projector-yk.s3.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "AWSAccount",
+        "principalId": "",
+        "accountId": "anonymous"
+      },
+      "eventTime": "2022-12-10T13:07:50Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "85.208.72.177",
+      "userAgent": "[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36]",
+      "errorCode": "AccessDenied",
+      "errorMessage": "Access Denied",
+      "requestParameters": {
+        "bucketName": "projector-yk",
+        "Host": "projector-yk.s3.amazonaws.com",
+        "key": "favicon.ico"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "bytesTransferredIn": 0,
+        "x-amz-id-2": "cmZAR2Ofab5ZjU5nb0YqhHe/DwIfkRDq7toqNpZd2cYdDy/rF/potpzpVG91S+XpOCU5w6kPalI=",
+        "bytesTransferredOut": 243
+      },
+      "requestID": "C3H8P75PV9CMD93A",
+      "eventID": "2187f050-fd4c-405f-83bf-3def37f6991d",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARN": "arn:aws:s3:::projector-yk/favicon.ico"
+        },
+        {
+          "accountId": "626154662919",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::projector-yk"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "626154662919",
+      "sharedEventID": "cf095470-9c52-40c5-a843-bb1e7ba1ce3a",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "projector-yk.s3.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAZDSNZ5QDRE4VW5QA2",
+        "arn": "arn:aws:iam::626154662919:user/Yev",
+        "accountId": "626154662919",
+        "accessKeyId": "ASIAZDSNZ5QDRVIKQUR3",
+        "userName": "Yev",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2022-12-10T09:40:44Z",
+            "mfaAuthenticated": "true"
+          }
+        }
+      },
+      "eventTime": "2022-12-10T13:07:54Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListObjects",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "85.208.72.177",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.10.144-111.639.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.352-b08 java/1.8.0_352 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+      "requestParameters": {
+        "list-type": "2",
+        "bucketName": "aws-cloudtrail-logs-626154662919-4289d4d6",
+        "encoding-type": "url",
+        "max-keys": "1000",
+        "fetch-owner": "true",
+        "prefix": "AWSLogs/626154662919/CloudTrail/us-east-1/2022/12/10/",
+        "delimiter": "/",
+        "Host": "s3.amazonaws.com"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "bytesTransferredIn": 0,
+        "AuthenticationMethod": "AuthHeader",
+        "x-amz-id-2": "EXSunQGq43Vk/uOlbMPAzJ6R7GtgWmAggyupYoNrGtOIPJIOVnrh6vY0wa+CnK8MgoKfW6tF02Y=",
+        "bytesTransferredOut": 36803
+      },
+      "requestID": "5V2MFHEVFZCAJSE0",
+      "eventID": "91fc37d1-6f56-4d23-8fab-cac710c5303c",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARNPrefix": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6/AWSLogs/626154662919/CloudTrail/us-east-1/2022/12/10/"
+        },
+        {
+          "accountId": "626154662919",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::aws-cloudtrail-logs-626154662919-4289d4d6"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "626154662919",
+      "vpcEndpointId": "vpce-f40dc59d",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "s3.amazonaws.com"
+      }
+    }
+  ]
+}
